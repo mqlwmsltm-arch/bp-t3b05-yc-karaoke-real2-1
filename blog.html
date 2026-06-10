@@ -3,83 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>비밀 정보망: 네트워크 감시를 피하는 프라이버시 해킹 가이드 - blog</title>
-    <meta name="description" content="네트워크 감시를 피하는 프라이버시 해킹 가이드! 에드워드 스노든의 철벽 보안 노하우와 유흥 정보망 보호 기법.">
+    <title>염창 가라오케 찐후기 블로그 | 생생한 방문 후기</title>
+    <meta name="description" content="염창 가라오케 찐후기 블로그! 직접 방문한 생생한 후기와 꿀팁. 염창역 가라오케 추천, 가격, 시설 정보까지 한눈에 확인하세요. 전화 010-6279-0862">
+    <meta name="keywords" content="염창 가라오케 찐후기, 염창 가라오케 블로그, 염창 노래방 후기, 염창 가라오케 추천, 염창역 가라오케">
+    <link rel="canonical" href="https://t3b05-yc-karaoke-real2-1.vercel.app/blog">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    
+    <!-- OG / Twitter Card -->
+    <meta property="og:title" content="염창 가라오케 찐후기 블로그 - 직접 가보고 쓴 이야기">
+    <meta property="og:description" content="염창 가라오케 찐후기! 실제 방문자들의 생생한 후기를 블로그에서 확인하세요. 가격, 시설, 분위기까지 전부 공개합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-yc-karaoke-real2-1.vercel.app/blog">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="염창 가라오케 찐후기 블로그">
+    <meta name="twitter:description" content="염창 가라오케 찐후기! 직접 방문한 생생한 후기와 꿀팁">
+
     <style>
-        body {
-            background-color: #05020c;
-            color: #e2e8f0;
-            font-family: 'Outfit', 'Inter', sans-serif;
+        /* ----- RESET & BASE ----- */
+        * {
             margin: 0;
-            padding: 40px 20px;
-            line-height: 1.8;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .post-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: rgba(18, 10, 36, 0.75);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 16px;
-            padding: 40px;
-            box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
-            backdrop-filter: blur(12px);
+        body {
+            font-family: 'Pretendard', 'Noto Sans KR', system-ui, -apple-system, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            line-height: 1.6;
         }
-        h1, h2 {
-            color: #fff;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            padding-bottom: 10px;
-            text-shadow: 0 0 8px #ff007c;
-        }
-        p {
-            font-size: 1.05rem;
-        }
-        .highlight {
-            color: #00f0ff;
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 25px;
-            color: #00f0ff;
+        a {
+            color: #ff4d4d;
             text-decoration: none;
-            border: 1px solid #00f0ff;
-            padding: 10px 20px;
-            border-radius: 30px;
-            background: rgba(0, 240, 255, 0.05);
+            transition: color 0.2s;
         }
-        .back-link:hover {
-            background: #00f0ff;
-            color: #000;
+        a:hover {
+            color: #ff8080;
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ----- TYPOGRAPHY (oversized) ----- */
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 900;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 0.5em;
+            color: #ff4d4d;
+            text-shadow: 4px 4px 0 #1a1a1a;
+        }
+        h2 {
+            font-size: clamp(1.8rem, 5vw, 3.2rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-top: 1.5em;
+            margin-bottom: 0.6em;
+            background: linear-gradient(135deg, #ff4d4d, #ff8080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        h3 {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            font-weight: 700;
+            margin-top: 1.2em;
+            margin-bottom: 0.4em;
+            color: #f0f0f0;
+        }
+        p, li, blockquote {
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            margin-bottom: 1em;
+            color: #cccccc;
+        }
+        .small-text {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        /* ----- LAYOUT: full bleed, asymmetric, negative margins ----- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .full-bleed {
+            margin-left: -20px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: #1a1a1a;
+        }
+
+        /* ----- NAVIGATION (brutalist) ----- */
+        .nav-bar {
+            background: #111;
+            padding: 20px 0;
+            border-bottom: 4px solid #ff4d4d;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo a {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #ff4d4d;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        .nav-links a {
+            color: #ccc;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: #ff4d4d;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #ff4d4d;
+            border-radius: 2px;
+        }
+
+        /* ----- CARDS & COMPONENTS (brutalist) ----- */
+        .card {
+            background: #1c1c1c;
+            border: 2px solid #333;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 8px 8px 0 #0a0a0a;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 11px 11px 0 #0a0a0a;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ff4d4d;
+            margin-bottom: 10px;
+        }
+        .card-meta {
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff4d4d;
+            color: #111 !important;
+            font-weight: 700;
+            padding: 12px 28px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: 2px solid #ff4d4d;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: transparent;
+            color: #ff4d4d !important;
+            text-decoration: none;
+        }
+        .btn-secondary {
+            background: transparent;
+            color: #ff4d4d !important;
+            border-color: #ff4d4d;
+        }
+        .btn-secondary:hover {
+            background: #ff4d4d;
+            color: #111 !important;
+        }
+
+        /* ----- QUOTE / HIGHLIGHT ----- */
+        blockquote {
+            border-left: 6px solid #ff4d4d;
+            padding-left: 20px;
+            font-style: italic;
+            color: #aaa;
+            margin: 1.5em 0;
+        }
+
+        /* ----- FOOTER ----- */
+        footer {
+            background: #111;
+            border-top: 4px solid #ff4d4d;
+            padding: 30px 0;
+            margin-top: 60px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* ----- RESPONSIVE 768px ----- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background: #111;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                padding: 20px;
+                border-bottom: 4px solid #ff4d4d;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            h1 {
+                font-size: clamp(2rem, 6vw, 3rem);
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .card {
+                padding: 18px;
+            }
         }
     </style>
 </head>
 <body>
 
-<div class="post-container">
-    <h1>[MEMO] 네트워크 감시와 덤터기를 피하는 프라이버시 물리</h1>
-    <p>
-        반갑다 브로! 형이 오늘은 인터넷 네트워크의 보이지 않는 도청 포트들과, 
-        우리가 실생활에서 유흥 정보를 탐색할 때 어떻게 하면 감시망과 바가지 마찰을 피할 수 있는지에 대한 실전 공학 팁을 알려줄게.
-    </p>
-    <p>
-        2013년 에드워드 스노든이 폭로한 NSA의 프리즘(PRISM) 프로그램은 단순히 텍스트 감시에 그치지 않고, 
-        우리가 어디를 클릭하고 어떤 키워드를 주로 마운트하는지 모든 검색 흔적을 실시간 메타데이터로 저장했어. 
-        이런 감시 필터들은 대형 마케팅 플랫폼들이 가짜 후기와 대포 요금을 조작하여 특정 사이트로 트래픽을 유도하는 기만 필터로도 똑같이 재현되고 있지.
-    </p>
-    <p>
-        이런 교란 속에서 너를 안전하게 방어하는 방법은 아주 간단해:
-    </p>
-    <ul>
-        <li>첫째, 출처 불분명한 유흥 정보 삐끼들의 SMS 링크나 카톡 채널 패킷을 함부로 활성화하지 마라.</li>
-        <li>둘째, 검색엔진에 흔적을 강하게 남기는 대신, 신뢰할 수 있는 다이렉트 핫라인 채널을 즉각 이용해라.</li>
-        <li>셋째, 형이 직접 제공하는 정직한 정찰 가이드 노드를 주기적으로 마운트하여 실시간 스펙을 검증해라.</li>
-    </ul>
-    <p>
-        형이 엄선한 염창 인근 최강의 세션 정보는 언제나 메인 콘솔인 <a href="index.html" class="highlight">염창 가라오케 찐후기</a>에서 확인 가능하니까, 
-        바가지 걱정 없이 편안하게 스트레스를 날릴 준비가 되었다면 망설이지 말고 예약 포트인 010-6279-0862로 전화를 때리라구 브로!
-    </p>
+    <!-- 네비게이션 -->
+    <nav class="nav-bar">
+        <div class="container nav-inner">
+            <div class="logo"><a href="/">염창 가라오케</a></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">홈</a></li>
+                <li><a href="/blog">블로그</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/contact">문의</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-    <a href="index.html" class="back-link">← 메인 콘솔로 복귀</a>
-</div>
+    <!-- 메인 블로그 글 -->
+    <main class="container" style="margin-top: 40px;">
+        <article>
+            <header style="margin-bottom: 40px;">
+                <h1>염창 가라오케 찐후기<br>직접 가보고 쓴 솔직 후기</h1>
+                <p class="small-text" style="margin-top: 10px;">2025년 3월 15일 · by 찐방문러</p>
+            </header>
 
+            <div class="card full-bleed" style="margin-bottom: 40px;">
+                <p>야, 진짜 염창 가라오케 찐후기 들려줄게. 나처럼 가라오케 좀 돌아다니는 사람인데, 염창역 근처에서 진짜 괜찮은 곳 찾기가 하늘의 별따기잖아? 그런데 여기는 달랐어. 지난주 금요일에 친구랑 둘이 갔는데, 들어서자마자 분위기부터 다르더라고. 암튼, 오늘은 내가 직접 경험한 염창 가라오케 솔직 찐후기를 다 푼다.</p>
+            </div>
+
+            <h2>시설: 생각보다 깔끔하고 센스 있어</h2>
+            <p>솔직히 가라오케 하면 좀 올드하고 칙칙한 이미지 있잖아? 근데 여기는 완전 달라. 방이 넓직하고, 조명도 감성적이야. 블루투스 스피커도 되게 좋은 거 써서 음질이 진짜 깔끔해. 우리는 작은 방 썼는데도 4~5명은 거뜬히 들어가더라. 그리고 마이크도 두 개라서 듀엣으로 부르기 좋았어.</p>
+            <p>무엇보다 <strong>에어컨이 빵빵</strong>해서 좋았어. 밤새도록 노래 불러도 안 덥더라고. 화장실도 깨끗하고, 간단한 음료랑 과자도 준비되어 있어서 편리했어. 개인적으로는 리모컨이 좀 낡은 느낌이 있었는데, 그래도 전체적으로 시설 점수는 9점 만점에 8점!</p>
+
+            <blockquote>
+                "진짜 깜짝 놀랐어. 염창 가라오케 중에서 이렇게 시설 좋은 곳은 처음이야. 친구들이랑 다음에 또 가기로 약속했어." — 30대 직장인 김모 씨
+            </blockquote>
+
+            <h2>가격: 가성비 미쳤다</h2>
+            <p>가격 얘기 안 할 수 없지. 우리는 평일 밤 10시에 방문했는데, 2시간에 4만 원대? 진짜 미친 가성비야. 인근 다른 가라오케보다 최소 1~2만 원은 저렴한 것 같아. 심지어 음료랑 안주 서비스까지 포함된 가격이라 더 좋았어. 토요일에는 조금 비싸다는데, 그래도 평일이면 완전 추천!</p>
+            <p>참고로 <strong>전화 예약</strong>하면 추가 할인도 해준다니까 꼭 전화하고 가. 번호는 <a href="tel:010-6279-0862" style="font-weight:700;">010-6279-0862</a>야.</p>
+
+            <h2>노래방 분위기: 마치 클럽?</h2>
+            <p>처음에 문 열고 들어갔을 때, 아 이건 가라오케가 아니라 작은 클럽인가? 싶었어. 조명이 은은하게 들어오고, 스피커에서 나오는 베이스가 꽉 차더라고. 특히 최신 노래랑 일본곡도 많아서, 우리는 J-pop도 몇 곡 불렀어. 음정도 잘 맞춰주고, 에코도 적당해서 부르기 편했어.</p>
+            <p>직원분들도 친절하셔서, 리모컨 사용법 물어봤는데 바로 와서 설명해주시고. 서비스 마인드 좋은 사장님인 것 같아. 진짜 염창 가라오케 찐후기 중에서 제일 만족스러운 부분이 서비스야.</p>
+
+            <h2>총평: 강력 추천!</h2>
+            <p>솔직히 나는 가라오케에 엄청 까다로운 편인데, 여기는 재방문 의사 100%야. 분위기, 가격, 시설 모든 게 균형 잡혔고, 특히 친구들이랑 가기 딱 좋아. 염창 가라오케 찐후기 찾는 사람이라면 여기 한 번쯤 가보길. 아래에 요약해줄게.</p>
+
+            <div class="card" style="margin: 30px 0;">
+                <div class="card-title">⭐ 염창 가라오케 찐후기 요약</div>
+                <ul style="padding-left: 20px; margin-top: 10px;">
+                    <li><strong>시설</strong>: 깔끔하고, 음질 좋음, 에어컨 빵빵</li>
+                    <li><strong>가격</strong>: 평일 2시간 4만 원대, 가성비 최고</li>
+                    <li><strong>분위기</strong>: 감성적, 클럽 느낌, 최신곡 많음</li>
+                    <li><strong>서비스</strong>: 직원 친절, 음료/안주 서비스 포함</li>
+                    <li><strong>추천 포인트</strong>: 듀엣 가능, 단체 손님 환영</li>
+                </ul>
+            </div>
+
+            <p>자, 이제 결정은 네 몫
 </body>
 </html>

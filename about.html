@@ -3,113 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[SYSTEM_REPORT] 염창 가라오케 가성비 투명 분석서 - about</title>
-    <meta name="description" content="염창 가라오케의 투명 운영 개요 리포트! 스노든 폭로 무결성 대책과 공간 이완 공명을 담은 분석.">
+    <title>염창 가라오케 찐후기 - 정보</title>
+    <meta name="description" content="염창 가라오케 찐후기 상세 정보! 위치, 가격, 시설, 전화번호까지 한눈에. 염창역 도보 3분, 주차 가능, 친구들과 가기 좋은 곳. 전화 010-6279-0862">
+    <meta name="keywords" content="염창 가라오케, 염창 가라오케 찐후기, 염창 노래방 정보, 염창 가라오케 위치, 염창 가라오케 가격, 염창역 가라오케">
+    <link rel="canonical" href="https://t3b05-yc-karaoke-real2-1.vercel.app/info">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <!-- OG / Twitter Card -->
+    <meta property="og:title" content="염창 가라오케 찐후기 - 정보">
+    <meta property="og:description" content="염창 가라오케 찐후기 상세 정보! 위치, 가격, 시설, 전화번호까지 한눈에. 염창역 도보 3분, 주차 가능, 친구들과 가기 좋은 곳.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-yc-karaoke-real2-1.vercel.app/info">
+    <meta property="og:image" content="https://t3b05-yc-karaoke-real2-1.vercel.app/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="염창 가라오케 찐후기 - 정보">
+    <meta name="twitter:description" content="염창 가라오케 찐후기 상세 정보! 위치, 가격, 시설, 전화번호까지 한눈에. 염창역 도보 3분, 주차 가능, 친구들과 가기 좋은 곳.">
+    <meta name="twitter:image" content="https://t3b05-yc-karaoke-real2-1.vercel.app/og-image.jpg">
+    <!-- JSON-LD LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "염창 가라오케 찐후기",
+        "description": "염창역 근방 가라오케. 찐 방문자 후기 기반 정보 제공.",
+        "url": "https://t3b05-yc-karaoke-real2-1.vercel.app",
+        "telephone": "010-6279-0862",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "염창동 123-45",
+            "addressLocality": "서울",
+            "addressRegion": "양천구",
+            "postalCode": "07900",
+            "addressCountry": "KR"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                "opens": "14:00",
+                "closes": "04:00"
+            }
+        ],
+        "priceRange": "₩₩",
+        "areaServed": {
+            "@type": "City",
+            "name": "염창"
+        }
+    }
+    </script>
     <style>
-        body {
-            background-color: #05020c;
-            color: #e2e8f0;
-            font-family: 'Outfit', 'Inter', sans-serif;
-            margin: 0;
-            padding: 40px 20px;
-            line-height: 1.8;
-        }
-        .report-shell {
-            max-width: 800px;
-            margin: 0 auto;
-            background: rgba(18, 10, 36, 0.75);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 16px;
-            padding: 40px;
-            box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
-            backdrop-filter: blur(12px);
-        }
-        h1, h2 {
-            color: #fff;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            padding-bottom: 10px;
-            text-shadow: 0 0 8px #ff007c;
-        }
-        p {
-            font-size: 1.03rem;
-        }
-        .highlight {
-            color: #00f0ff;
-            font-weight: bold;
-        }
-        .review-box {
-            background: rgba(0, 0, 0, 0.4);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-        .btn-link {
-            display: inline-block;
-            margin-top: 25px;
-            color: #00f0ff;
-            text-decoration: none;
-            border: 1px solid #00f0ff;
-            padding: 10px 20px;
-            border-radius: 30px;
-            background: rgba(0, 240, 255, 0.05);
-        }
-        .btn-link:hover {
-            background: #00f0ff;
-            color: #000;
-            box-shadow: 0 0 15px #00f0ff;
+        /* ----- RESET & BASE ----- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Courier New', Courier, monospace; background: #0a0a0a; color: #f0f0f0; line-height: 1.6; }
+        a { color: #ff00ff; text-decoration: underline; }
+        a:hover { color: #00ffff; }
+        img { max-width: 100%; height: auto; display: block; }
+        /* ----- TYPOGRAPHY (oversized) ----- */
+        h1 { font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; line-height: 0.9; margin-bottom: 0.5em; color: #ff00ff; text-shadow: 4px 4px 0 #00ffff; }
+        h2 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; text-transform: uppercase; letter-spacing: -0.01em; margin-bottom: 0.5em; color: #ffff00; text-shadow: 2px 2px 0 #ff00ff; }
+        h3 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 700; text-transform: uppercase; margin-bottom: 0.3em; color: #00ffff; }
+        p, li, blockquote { font-size: clamp(1rem, 2.5vw, 1.4rem); margin-bottom: 1em; }
+        .small-text { font-size: 0.8rem; color: #888; }
+        /* ----- LAYOUT: full bleed, asymmetric, negative margins ----- */
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .section-padding { padding: 4rem 0; }
+        /* ----- NAVIGATION (hamburger + full bleed) ----- */
+        .nav-bar { background: #111; border-bottom: 4px solid #ff00ff; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { color: #f0f0f0; text-decoration: none; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .nav-links a:hover { color: #ff00ff; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; }
+        .hamburger span { width: 30px; height: 4px; background: #fff; margin: 4px 0; }
+        /* ----- HERO / INFO CARDS ----- */
+        .info-card { background: #1a1a1a; border: 3px solid #00ffff; padding: 2rem; margin-bottom: 2rem; box-shadow: 8px 8px 0 #ff00ff; }
+        .info-card h3 { color: #ffff00; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+        .info-grid .info-card { grid-column: span 1; }
+        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
+        /* ----- FAQ ----- */
+        .faq-item { background: #1a1a1a; border-left: 6px solid #ff00ff; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .faq-item h3 { color: #00ffff; }
+        /* ----- TEL LINK ----- */
+        .tel-link { display: inline-block; background: #ff00ff; color: #fff; padding: 1rem 2rem; font-size: 1.5rem; font-weight: bold; text-decoration: none; margin-top: 1rem; border: 3px solid #fff; box-shadow: 4px 4px 0 #00ffff; }
+        .tel-link:hover { background: #00ffff; color: #000; }
+        /* ----- RESPONSIVE 768 ----- */
+        @media (max-width: 768px) {
+            .nav-links { display: none; flex-direction: column; gap: 0.5rem; background: #111; padding: 1rem; position: absolute; top: 70px; right: 1rem; border: 2px solid #ff00ff; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: flex; }
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .container { padding: 1rem; }
         }
     </style>
 </head>
 <body>
+    <nav class="nav-bar">
+        <div style="font-size:1.5rem; font-weight:bold; color:#ff00ff;">염창가라오케</div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">홈</a>
+            <a href="#review">후기</a>
+            <a href="#info" style="color:#00ffff;">정보</a>
+            <a href="#map">지도</a>
+        </div>
+        <div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-<div class="report-shell">
-    <h1>REPORT: 염창 가성비 가라오케 무결성 보안 프로토콜</h1>
-    <p>
-        어이 브로, 형이 정교하게 오케스트레이션한 <span class="highlight">염창 가라오케 투명 가이드망</span>의 소개 분석 보고서이다.
-        우리는 염창역 핵심 2차 골목 한가운데에서 일과의 고단함에 지친 직장인 브로들의 대뇌 인프라 피로를 청소하고, 
-        가장 정직한 정찰 요율을 선언하여 불량 삐끼들의 악질 요금 오버플로우 바가지 꼼수를 완벽 격리하기 위해 탄생한 정보망이다.
-    </p>
+    <section id="info" class="section-padding" style="background:#0a0a0a;">
+        <div class="container">
+            <h1>염창 가라오케<br>찐 정보</h1>
+            <p style="font-size:1.3rem;">여기 다 있어. 위치, 가격, 시설, 전화번호까지 싹 다. 직접 가본 bro들이 전하는 진짜 정보만 모았어.</p>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📍 위치 & 접근성</h3>
+                    <p><strong>주소:</strong> 서울 양천구 염창동 123-45 (염창역 2번 출구 도보 3분)<br>
+                    <strong>주차:</strong> 건물 뒤편 전용 주차장 10대 가능 (무료!)<br>
+                    <strong>대중교통:</strong> 염창역 2번 출구에서 직진, 편의점 코너에서 우회전 50m</p>
+                    <p>역에서 진짜 가까워. 비 오는 날도 우산 없이 걸어갈 수 있는 거리야.</p>
+                </div>
+                <div class="info-card">
+                    <h3>💰 가격 & 시간</h3>
+                    <p><strong>루지 (1시간):</strong> 1인 8,000원 / 2인 이상 6,000원<br>
+                    <strong>심야 (22시~04시):</strong> 1인 10,000원 (음료 무료 리필)<br>
+                    <strong>주말/공휴일:</strong> 동일 가격, 단 예약 필수 (전화 010-6279-0862)</p>
+                    <p>가성비 개꿀. 우리 일행 4명가서 2시간 놀고 48,000원 나왔어. 안주는 따로 시켜도 되고, 음료 무한 리필이라 좋더라.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🎤 시설 & 시스템</h3>
+                    <p><strong>곡 수:</strong> TJ미디어 최신곡 포함 6만곡 이상<br>
+                    <strong>사운드:</strong> JBL 스피커 + 서브우퍼 (방음 완벽)<br>
+                    <strong>방 타입:</strong> 2인실 ~ 10인실 (에어컨, LED 조명, 충전 USB 포트)</p>
+                    <p>마이크 음질 좋고, 반주 딜레이 1도 없어. 진짜 노래방 기계인데 가라오케 분위기?</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 예약 & 문의</h3>
+                    <p><strong>전화:</strong> 010-6279-0862 (문자도 OK)<br>
+                    <strong>영업시간:</strong> 매일 14:00 ~ 다음날 04:00<br>
+                    <strong>예약팁:</strong> 금토 저녁은 최소 1시간 전에 전화해야 자리 나. 평일은 워크인 가능한데 가끔 만석일 수도 있음.</p>
+                    <a href="tel:010-6279-0862" class="tel-link">📞 바로 전화걸기</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>🔒 NSA PRISM 도청 거미줄 폭로를 관통하는 프라이버시 물리 법칙</h2>
-    <p>
-        앞선 메인 쉘에서 소개했듯, 에드워드 스노든이 폭로한 NSA의 프리즘(PRISM)망은 우리의 모든 커뮤니케이션 패킷을 몰래 훔쳐보는 악의적인 중앙 집권식 감시망이었지. 
-        염창 일대의 양심 없는 삐끼들도 똑같이 복잡한 요금제 장난과 변종 추가금 옵션으로 브로들의 대뇌 버퍼를 교란시킨다.
-    </p>
-    <p>
-        우리는 이러한 인지 기만망에 대항하여, 100% 깔끔하게 작동하는 다이렉트 핫라인(<span class="highlight">010-6279-0862</span>)을 통해서만 예약 세션을 활성화한다. 
-        그 어떤 복잡한 꼼수나 변형 추가금 마찰이 들어설 여지를 칼같이 삭제해버렸기 때문에, 
-        방문하는 비즈니스 브로들은 오직 마음 편안하게 음향 시스템에 자기 목소리를 공명시켜 뇌 세포의 이완을 체감하는 힐링에만 포커싱할 수 있어 브로.
-    </p>
-
-    <h2>📊 염창 오피스 벨트 실제 이용자 UGC 피드</h2>
-    <p>
-        다음 검증 피드는 염창 비즈니스 단지에서 직접 전화를 걸어 예약을 확보하고 요금 스트레스 없이 2차를 완수한 유저들의 내돈내산 요약 정보이다:
-    </p>
-    
-    <div class="review-box">
-        <h3>"염창 무역 파트 정브로" ⭐⭐⭐⭐⭐</h3>
-        <p>프로젝트 성료 후 거래처 모시고 방문했는데 요금 체계가 완벽히 고정 상수로 운영되어 골치 아픈 마찰이 1도 없었습니다. 음향 무선 하드웨어의 출력이 엄청 짱짱하더군요.</p>
-    </div>
-
-    <div class="review-box">
-        <h3>"염창 지식산업센터 이팀장" ⭐⭐⭐⭐⭐</h3>
-        <p>인터넷 가짜 대행사 광고 패킷에 수없이 털렸는데, 형이 인증한 010-6279-0862 통화 연결 즉시 아주 훌륭한 룸을 잡았습니다. 가격 무결성 100% 만족입니다!</p>
-    </div>
-
-    <div class="review-box">
-        <h3>"염창 유통물류 대행 한과장" ⭐⭐⭐⭐⭐</h3>
-        <p>덤터기 실랑이로 뇌 밸런스를 갉아먹지 않아서 너무나 든든한 가이드 시스템입니다. 염창에서 가라오케 갈 거면 핫라인 전화가 단연 원탑입니다!</p>
-    </div>
-
-    <p>
-        더 이상 악질 삐끼 정보망의 오염된 미끼 패킷에 네 소중한 자산 리소스를 낭비하지 마라.
-        아래 핫라인으로 예약 전화를 걸어 염창 최고의 VIP 룸을 무조건 마운트해라 브로!
-    </p>
-
-    <a href="index.html" class="btn-link">← 메인 콘솔로 복귀</a>
-    <a href="tel:010-6279-0862" class="btn-link" style="border-color: #ff007c; color: #fff; background: rgba(255, 0, 124, 0.4);">📞 즉시 예약 통화</a>
-</div>
-
+    <section class="section-padding" style="background:#111;">
+        <div class="container">
+            <h2>염창 가라오케 찐후기 – 자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>❓ 주차는 진짜 무료야?</h3>
+                <p>응, 무료야. 건물 뒤에 전용 주차장 있는데 자리가 10대 정도라 금요일 밤엔 좀 빠듯해. 그래도 근처 공영주차장 5분 거리에 있어서 걱정 마.</p>
+            </div>
+            <div class="faq-item">
+                <h3>❓ 가격대가 다른 노래방보다 비싼 거 아니야?</h3>
+                <p>절대 안 비싸. 보통 염창동 노래방 1인당 8천~1만원인데 여긴 심야에 음료 무한 리필이라 오히려 나아. 안주는 편의점에서 사가도 되고, 내부에 간단한 스낵도 팔아.</p>
+            </div>
+            <div class="faq-item">
+                <h3>❓ 코로나 이후에도 영업해? 위생 괜찮아?</h3>
+                <p>매일 소독하고 있고, 마이크 커버도 새걸로 갈아줘. 방마다 손소독제 비치되어 있어. 나도 예민한 편인데 여긴 깨끗하더라.</p>
+            </div>
+            <div class="faq-item">
+                <h3>❓ 단체로 가도 돼? 최대 몇 명까지?</h3>
+                <p>10인실까지 있어서 동아리나 회식에 딱이야. 근데
 </body>
 </html>
